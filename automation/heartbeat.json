@@ -1,0 +1,30 @@
+{
+  "serviceName": "payment-processor",
+  "status": "healthy",
+  "timestamp": "2024-01-26T10:00:00Z",
+  "version": "1.2.3",
+  "dependencies": {
+    "database": {
+      "status": "healthy",
+      "responseTimeMs": 15
+    },
+    "messageQueue": {
+      "status": "healthy",
+      "messagesPending": 0
+    },
+    "externalAPI": {
+      "status": "healthy",
+      "responseTimeMs": 120
+    }
+  },
+  "metrics": {
+    "cpuUsage": 0.25,
+    "memoryUsage": 0.70,
+    "activeThreads": 10,
+    "requestsPerSecond": 55.2
+  },
+  "buildInfo": {
+    "gitCommit": "a1b2c3d4e5f6",
+    "buildDate": "2024-01-25T18:00:00Z"
+  }
+}
